@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body {
+  overscroll-behavior: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width:3px;
+}
+
+::-webkit-scrollbar-track {
+  background: trasparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background:#262424;
+  border:8px
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background:#262424;
+}
+
+:root {
+  --font-min: 16px;
+  --font-preferred: .8vw;
+  --font-max: 24px;
+  --title-min: 48px;
+  --title-preferred: 15vw;
+  --title-max: 20vw;
+}
+
+
+
+@layer base {
+  h1 {
+    @apply text-4xl;
+    @apply font-bold;
+  }
+  h2 {
+    @apply text-3xl;
+    @apply font-bold;
+  }
+  h3 {
+    @apply text-2xl;
+    @apply font-bold;
+  }
+  h4 {
+    @apply text-xl;
+    @apply font-semibold;
+  }
+  h5 {
+    @apply text-lg;
+    @apply font-semibold;
+  }
+  h6 {
+    @apply text-sm;
+    @apply font-semibold;
+  }
+}
+
+@layer utilities {
+  .hide-scrolling {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .hide-scrolling::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  .text-contrast {
+    color: #fff;
+    mix-blend-mode: difference;
+  }
+
+  .text-title-responsive {
+    font-size: clamp(var(--title-min), var(--title-preferred), var(--title-max));
+    line-height: clamp(--lineheight-multipler*var(--title-min), --lineheight-multipler*var(--title-preferred), --lineheight-multipler*var(--title-max));
+  }
+
+  .text-responsive {
+    font-size: clamp(var(--font-min), var(--font-preferred), var(--font-max));
+    line-height: clamp(--lineheight-multipler*var(--font-min), --lineheight-multipler*var(--font-preferred), --lineheight-multipler*var(--font-max));
+  }
+}
+
+
+.section-x {
+  @apply px-6 lg:px-24 2xl:px-36 mx-auto
+}
+
+.section-y {
+  @apply pt-14 2xl:pt-28 pb-12 2xl:pb-24
+}
+
+.section {
+  @apply section-x section-y
+}
+
