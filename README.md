@@ -1,14 +1,15 @@
-<h1 align="center">
-  Watch Dogs 2 Game Soundtrack
-  <div align="center">
-    <img src="https://img.shields.io/badge/Website-black" alt="Live">
-    <a href="https://nextjs.org/">
-      <img src="https://img.shields.io/badge/Next.js-black" alt="">
-    </a>
-      <img src="https://img.shields.io/badge/Javascript-black" alt="">
-    <br>
-  </div>
-</h1>
+<img src="./public/banner.webp" alt="Live">
+<br/><br/>
+<h1 align="center">Watch Dogs 2 Game Soundtrack</h1> 
+<div align="center">
+  <img src="https://img.shields.io/badge/Website-black" alt="Live">
+  <a href="https://nextjs.org/">
+    <img src="https://img.shields.io/badge/Next.js-black" alt="">
+  </a>
+    <img src="https://img.shields.io/badge/Javascript-black" alt="">
+  <br>
+  <br/><br/>
+</div>
 
 The Watch Dogs games are set in fictionalized versions of real-life cities, at various points in time, and follow different hacker protagonists whod, while having different goals to achieve, find themselves involved with the criminal underworlds of their respective cities.
 
