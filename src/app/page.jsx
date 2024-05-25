@@ -17,7 +17,7 @@ export default function Home() {
     window.scrollTo({ top: 0, left: 0 });
     setTimeout(() => {
       setIntroAnimation(true);
-    }, 2000);
+    }, 3000);
   }, []);
 
   const setIntroAnimation = (v) => {

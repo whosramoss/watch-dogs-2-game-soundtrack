@@ -1,4 +1,4 @@
-<img src="./public/banner.webp" alt="Live">
+<img src="./thumbnail.png" alt="Live">
 <h1 align="center">Watch Dogs 2 Game Soundtrack</h1> 
 <div align="center">
   <img src="https://img.shields.io/badge/Website-black" alt="Website">
