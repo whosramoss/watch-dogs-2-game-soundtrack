@@ -1,13 +1,9 @@
 <img src="./public/banner.webp" alt="Live">
-<br/><br/>
 <h1 align="center">Watch Dogs 2 Game Soundtrack</h1> 
 <div align="center">
-  <img src="https://img.shields.io/badge/Website-black" alt="Live">
-  <a href="https://nextjs.org/">
-    <img src="https://img.shields.io/badge/Next.js-black" alt="">
-  </a>
-    <img src="https://img.shields.io/badge/Javascript-black" alt="">
-  <br>
+  <img src="https://img.shields.io/badge/Website-black" alt="Website">
+  <img src="https://img.shields.io/badge/Next.js-black" alt="Next.js">
+  <img src="https://img.shields.io/badge/Javascript-black" alt="Javascript">
   <br/><br/>
 </div>
 
